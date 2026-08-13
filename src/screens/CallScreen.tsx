@@ -64,8 +64,7 @@ const CallScreen: React.FC<CallScreenProps> = ({ session, meetingId, onEndCall }
 
   return (
     <View style={[styles.container, { width, height }]}>
-      <StatusBar barStyle="light-content" backgroundColor="#0B0C10" />
-      
+      <StatusBar barStyle="light-content" />      
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.headerLeft}>

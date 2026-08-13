@@ -150,8 +150,7 @@ const HomeScreen = ({ session, onJoinMeeting, onLogout }: HomeScreenProps) => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <StatusBar barStyle="light-content" backgroundColor="#1A1D26" />
-      
+      <StatusBar barStyle="light-content" />      
       <View style={styles.mainContainer}>
         
         {/* سایدبار - در موبایل مخفی می‌شود */}

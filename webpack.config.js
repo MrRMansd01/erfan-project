@@ -13,7 +13,11 @@ module.exports = {
   resolve: {
     extensions: ['.web.tsx', '.web.ts', '.web.js', '.tsx', '.ts', '.js', '.jsx'],
     alias: {
-      'react-native': 'react-native-web',
+      'react-native$': 'react-native-web',
+      '@react-native/assets-registry/registry': path.resolve(
+        __dirname,
+        'src/shims/assetRegistry.js'
+      ),
     },
   },
   module: {
